@@ -1,0 +1,20 @@
+{
+    "name": "gadyb/laravel-model-view-generator",
+    "description": "Laravel Model View Generator",
+    "keywords": ["laravel", "model", "view", "generator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gadyb",
+            "email": "gadybarak@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "GBarak\\ModelViewGenerator\\": "packages/gbarak/modelviewgenerator/src"
+        }
+    }
+}
