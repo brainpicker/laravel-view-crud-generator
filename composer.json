@@ -1,7 +1,7 @@
 {
-    "name": "gadyb/laravel-model-view-generator",
-    "description": "Laravel Model View Generator",
-    "keywords": ["laravel", "model", "view", "generator"],
+    "name": "gadyb/laravel-view-crud-generator",
+    "description": "Laravel View CRUD Generator",
+    "keywords": ["laravel", "crud", "view", "generator", "bootstrap"],
     "license": "MIT",
     "authors": [
         {
@@ -10,11 +10,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+		"php": ">=5.4.0",
+		"barryvdh/laravel-ide-helper": ">=2.1.4",
+		"doctrine/dbal": "~2.3"
+	},
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "GBarak\\ModelViewGenerator\\": "packages/gbarak/modelviewgenerator/src"
+            "GBarak\\ViewCrudGenerator\\": "src"
         }
     }
 }
