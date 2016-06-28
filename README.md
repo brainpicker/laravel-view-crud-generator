@@ -29,4 +29,4 @@ php artisan vcgen:make PostModel --viewPath="path/to/output/views"
 
 ### License
 
-The Laravel IDE Helper Generator is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Laravel View Crud Generator is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
